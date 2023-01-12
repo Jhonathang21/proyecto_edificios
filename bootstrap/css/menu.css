@@ -1,0 +1,53 @@
+*{
+margin: 1px;
+-webkit-box-sizing:border-box;
+-moz.box-sizing:border-box;
+box-sizing: border-box;
+
+}
+.body{
+	
+}
+
+.navegador{
+	width: 800px;
+	margin: 15px auto;
+		
+}
+
+.navegador ul{
+	list-style: none;
+}
+
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+
+}
+
+.menu > li > a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+}
+
+.menu li a:hover{
+	color: #353535;
+}
+
+.submenu {
+	position: absolute;
+	width: 80px;
+	display: none;
+}
+
+.submenu li a{
+	position: absolute;
+	display:block;
+	}
+
+.menu li:hover .submenu{
+	position: absolute;
+	display: block;
+	}
